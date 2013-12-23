@@ -1,15 +1,148 @@
-<!DOCTYPE html>
-<meta charset="UTF-8">
+<!doctype html>
 <html>
 	<head>
-                <style>
-                        html {background: url('http://i.imgur.com/U6S2YSR.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
-                </style>
-                <title>FedoraCoin</title>
+		<title>FedoraCoin &raquo; Get that euphoric, enlightened feeling</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
-        <body></body>
+	<body data-spy="scroll" data-target=".navbar-collapse">
+		<div id="navbar-header" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="img/logo.png"> FedoraCoin</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#why">Why?</a></li>
+						<li><a href="#how">How?</a></li>
+						<li><a href="#tip">TIP!</a></li>
+					</ul>
+					<p class="navbar-right" id="quotecontainer"><span id="quote"></span></p>
+				</div>
+			</div>
+		</div>
+	
+		<div class="jumbotron" id="hero">
+			<div class="container">
+				<h1>Get euphoric.</h1>
+				<p>FedoraCoin leads a whole new paradigm in the world of cryptocurrency. Users of the currency can thank each other for great contributions in only communities by tipping some fedora's to each other.</p>
+				<p><a class="btn btn-primary btn-lg" role="button" href="#how">Learn more &raquo;</a></p>
+			</div>
+		</div>
+		
+		
+		<section id="why">
+			<div class="container">
+				<header>
+					<h1>But why?</h1>
+				</header>
+				<p>We all need a currency for the future. We all need to be free of any government-centered currency. We all need to be&hellip; <strong>euphoric</strong></p>
+				<p>In the words of the wise <abbr title="Aalewis">[deleted]</abbr>:</p>
+				<blockquote>
+					<p>"In this moment, I am euphoric. Not because of any phony god’s blessing. But because, I am enlightened by my intelligence."</p>
+					<small><cite title="Aalewis">[deleted]</cite></small>
+				</blockquote>
+			</div>
+		</section>
+			
+		<section id="how">
+			<div class="container">
+				<header>
+					<h1>How can I join the fun?</h1>
+				</header>
+				<p>To be able to send and receive fedora TIPs, you need the fedoracoin wallet. The wallet is just what it sounds like: a digital version of the old leather chained wallet.</p>
+				
+				<section id="how-download">
+					<h2>1. Get the wallet</h2>
+					<p>The wallet comes with a beginner-neckbeard-friendly GUI, but those of us with full grown neckbears can also use the daemon and RPC.</p>
+					
+					<ul class="media-list" id="download-list">
+						<li class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="img/platforms/windows.png" alt="Windows">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">Windows</h4>
+								<p>Use Windows? That's OK, we were all young once.</p>
+								<a href="https://mega.co.nz/#!BJ9XzBwR!PA-K3zPbqbVXZT75-d8KYE95uBYc0P5ySaYyO5ANg7Q" class="btn btn-primary" role="button">Download</a>
+							</div>
+						</li>
+						<li class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="img/platforms/linux.png" alt="GNU/Linux">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">GNU/Linux</h4>
+								<p>Look, now we're talking. How long is your neckbear?</p>
+								<a href="#" class="btn btn-warning disabled" role="button">Coming soon&hellip;</a>
+							</div>
+						</li>
+						<li class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="img/platforms/osx.png" alt="OS X">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">OS X</h4>
+								<p>Not even once</p>
+								<a href="#" class="btn btn-warning disabled" role="button">Coming soon&hellip;</a>
+							</div>
+						</li>
+						<li class="media">
+							<a class="pull-left" href="#">
+								<img class="media-object" src="img/platforms/github.png" alt="GitHub">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">Source</h4>
+								<p>For some serious TIPs, get it right from the source.</p>
+								<a href="https://github.com/fedoracoin/fedoracoin" class="btn btn-primary" role="button">Download</a>
+							</div>
+						</li>
+					</ul>
+				</section>
+				
+				<section id="how-community">
+					<h2>2. Join the community</h2>
+					<p>If you're on reddit &mdash; and let's face it, which self-respecting fedora-tipper is not? &mdash; the general hub for talk about FedoraCoin is <a href="http://reddit.com/r/fedoracoin">/r/fedoracoin</a>.</p>
+					<p>Here's a list of some other, more specialized sub-reddits:</p>
+					<dl>
+						<dt><a href="http://reddit.com/r/FedoraCoinTalk">/r/FedoraCoinTalk</a></dt>
+						<dd>for all general FedoraCoin discussion</dd>
+						<dt><a href="http://reddit.com/r/FedoraCoinMining">/r/FedoraCoinMining</a></dt>
+						<dd>for mining and TIPS pool information</dd>
+						<dt><a href="http://reddit.com/r/FedoraCoinBeg">/r/FedoraCoinBeg</a></dt>
+						<dd>tip your fedoras to your fellow euphoric pals here</dd>
+						<dt><a href="http://reddit.com/r/TIPmarket">/r/TIPmarket</a></dt>
+						<dd>for all your TIPS selling needs</dd>
+					</dl>
+				</section>
+			</div>
+		</section>
+
+		<section id="tip">
+			<div class="container">
+				<header>
+					<h1>Tip some fedora's our general direction!</h1>
+				</header>
+				<p>If you like FedoraCoins, you can TIP some to us at <code>EXyrAaLMj8wEDx5oWvZKvKfN4ciH2YN4jj</code>. If you don't, you need to get euphoric.</p>
+			</div>
+		</section>
+	
+		<div id="footer">
+			<div class="container">
+				<p class="text-muted">In this moment, I am euphoric. Not because of any phony god's blessing, but because you read this entire page.</p>
+			</div>
+		</div>
+	
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/quotes.js"></script>
+	</body>
 </html>
